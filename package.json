@@ -1,0 +1,18 @@
+{
+  "name": "stream-build",
+  "version": "0.0.1",
+  "description": "\"introduce a convnient way to create basic custom streams\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": "",
+  "keywords": [
+    "stream",
+    "factory",
+    "inline",
+    "build"
+  ],
+  "author": "Gregor Elke <greelgorke@gmail.com> (http://greelgorke.tumblr.com)",
+  "license": "MIT"
+}
