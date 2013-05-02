@@ -52,6 +52,10 @@ describe('duplex', function() {
 })
 
 describe('transform', function() {
+  it('should throw an error when transform is not provided', function() {
+    assert.throws( function(){index.transform()}, TypeError )
+  })
+
   it('should create a transform stream with custom transform and flush', function() {
     var transform = function(){}
       , flush = function(){}
