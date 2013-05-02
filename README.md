@@ -27,6 +27,16 @@ var myReadable = new MyReadable()
 
 var myReadable = streamBuild.readable( function(size){
   //custom read code
-}, {/* opts here*/})
-
+}, {/* optional options here*/})
 ```
+
+## Install
+
+**not published on npm yet**
+
+
+
+## License
+
+MIT (see license file)
+
