@@ -1,6 +1,6 @@
 {
   "name": "stream-build",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "introduce a convenient way to create basic custom streams",
   "main": "index.js",
   "scripts": {
