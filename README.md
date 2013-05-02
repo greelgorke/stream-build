@@ -34,7 +34,14 @@ var myReadable = streamBuild.readable( function(size){
 
 **not published on npm yet**
 
+## About Performance
 
+the builder provided here do not use constructors or inheritance. This package aims for readability, so if you worry about performance:
+
+1. Measure
+2. eliminate bottlenecks
+
+Creating a constructor function and using it as in the before-example may give you some bit better performance, since v8 uses such structures for optimization considerations. It's your choice then.
 
 ## License
 
