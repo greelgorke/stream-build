@@ -32,7 +32,7 @@ var myReadable = streamBuild.readable( function(size){
 
 ## Install
 
-**not published on npm yet**
+`npm install stream-build`
 
 ## About Performance
 

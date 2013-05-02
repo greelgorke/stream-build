@@ -1,12 +1,15 @@
 {
   "name": "stream-build",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "introduce a convenient way to create basic custom streams",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
-  "repository": "",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/greelgorke/stream-build.git"
+  },
   "keywords": [
     "stream",
     "factory",
