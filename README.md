@@ -16,7 +16,7 @@ function MyReadable(opts){
 
 util.inherit(MyReadable,Readable)
 
-MyReadable._read() = function(size){
+MyReadable.prototype._read() = function(size){
   //custom read code
 }
 
