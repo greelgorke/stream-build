@@ -1,6 +1,6 @@
 {
   "name": "stream-build",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "introduce a convenient way to create basic custom streams",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "devDependencies":{
     "mocha": "*"
   },
-  "script":{
+  "scripts":{
     "test": "mocha test"
   },
   "engines":{
