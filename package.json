@@ -1,7 +1,7 @@
 {
   "name": "stream-build",
   "version": "0.0.1",
-  "description": "introduce a convnient way to create basic custom streams",
+  "description": "introduce a convenient way to create basic custom streams",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -19,7 +19,7 @@
     "mocha": "*"
   },
   "script":{
-    "test": "mocha test.js"
+    "test": "mocha test"
   },
   "engines":{
     "node" : ">=0.10.0"
