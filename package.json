@@ -1,14 +1,14 @@
 {
   "name": "stream-build",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "introduce a convenient way to create basic custom streams",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha test"
   },
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/greelgorke/stream-build.git"
+    "type": "git",
+    "url": "http://github.com/greelgorke/stream-build.git"
   },
   "keywords": [
     "stream",
@@ -18,14 +18,11 @@
   ],
   "author": "Gregor Elke <greelgorke@gmail.com> (http://greelgorke.tumblr.com)",
   "license": "MIT",
-  "devDependencies":{
+  "devDependencies": {
     "mocha": "*"
   },
-  "scripts":{
-    "test": "mocha test"
-  },
-  "engines":{
-    "node" : ">=0.10.0"
+  "engines": {
+    "node": ">=0.10.0"
   },
   "enginesStrict": true
 }
