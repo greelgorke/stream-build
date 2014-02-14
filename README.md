@@ -2,6 +2,8 @@
 
 this package offers you convenience factory methods for simpler creation of custom streams from the 4 base streams.
 
+[![Build Status](https://travis-ci.org/greelgorke/stream-build.png?branch=master)](https://travis-ci.org/greelgorke/stream-build)
+
 ## Usage
 
 Core stream module is re-exported. So you can easy replace `require('stream')` with `require('stream-build')` and go on. Now you have 4 factory methods which can be used to create custom streams:
